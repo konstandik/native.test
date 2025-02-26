@@ -1,0 +1,26 @@
+# Исключаем все файлы и директории
+/*
+!/local/
+
+# Включаем только нужные директории модуля и компонента
+/local/modules/native.test/
+/local/components/native/test_component/
+
+# Исключаем временные и системные файлы
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+~$
+
+# Исключаем файлы Bitrix
+/bitrix/
+/upload/
+/php_interface/
+/.settings.php
+/.access.php
+
+# Исключаем IDE-специфичные файлы
+.idea/
+.vscode/
